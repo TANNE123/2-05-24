@@ -1,0 +1,106 @@
+    
+    #a {
+        position: fixed;
+        left: 2%;
+      }
+      #b {
+        position: fixed;
+        right: 2%;
+      }
+      #c {
+        background-color: black;
+        height: 30px;
+        width: 1500px;
+        color: white;
+        position: fixed;
+      }
+      #d {
+        position: absolute;
+        z-index: 1;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-weight: bold;
+        font-size: 40px;
+        background-color: black;
+        color: white;
+      }
+      #e {
+        position: absolute;
+        z-index: 1;
+        top: 70%;
+        left: 60%;
+        transform: translate(-50%, -50%);
+        font-size: 40px;
+      }
+      p {
+        font-size: 40px;
+      }
+      #h {
+        position: relative;
+        display: inline-block;
+      }
+      #g {
+        position: absolute;
+      }
+      #f {
+        position: absolute;
+        top: 0%;
+        background-color: black;
+        color: white;
+        width: 125px;
+        height: 25px;
+      }
+      #l{
+        background-color: black;
+        color: white;
+        width: 130px;
+        height: 30px;
+      }
+      #i {
+        position: relative;
+        display: inline-block;
+        margin-left: 25%;
+      }
+      #k {
+        position: relative;
+        display: inline-block;
+        margin-left: 25%;
+      }
+      #x{
+        position: relative;
+        display: inline-block;
+      }
+      #AA {
+        width: 1300px;
+        height: 350px;
+      }
+      #cc{
+          width: 1300px;
+          height: 600px;
+      }
+      button{
+        width: 300px;
+        height: 40px;
+      }
+      input{
+        width: 100%;
+        height: 35px;
+      }
+      #m{
+        text-align: center;
+        width: 100%;
+        height: 100px;
+        background-color: black;
+        color: white;
+        padding-top: 2%;
+      }
+      body{
+        width: 100%;
+        height: 100%;
+      }
+      #im{
+        width:1000px ;
+      }
+      
+      
