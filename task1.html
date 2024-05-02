@@ -1,26 +1,72 @@
 <html>
     <style>
-        div{
+        
+        #relative{
             position: relative;
+            border: 1px solid;
+            width: 700px;
+            height: 600px;            
         }
-        span{
-            position: absolute;
-        }
-        p{
-            position:relative;
+        #absolute{
+            position:absolute;
+            top: 0%;
             left: 50%;
             background-color: black;
-            color: white;
-            widt
-            
+            color: white; 
+            font-size: 30px;
+        }
+        #absolute1{
+            position:absolute;
+            top: 50%;
+            left: 0%;
+            background-color: black;
+            color: white; 
+            font-size: 30px;
+        }
+        #absolute2{
+            position:absolute;
+            bottom: 0%;
+            left: 50%;
+            background-color: black;
+            color: white; 
+            font-size: 30px;
+        }
+        #absolute3{
+            position:absolute;
+            top: 50%;
+            right: 0%;
+            background-color: black;
+            color: white; 
+            font-size: 30px;
+        }
+        #absolute4{
+            position:absolute;
+            top: 50%;
+            left: 50%;
+            font-size: 30px;
+            background-color: black;
+            color: white; 
         }
     </style>
     <body>
-        <div>
-            <span><img src="https://images.pexels.com/photos/9454915/pexels-photo-9454915.jpeg?cs=srgb&dl=pexels-mo-eid-1268975-9454915.jpg&fm=jpg" width="500px"height="500px">
-            </span>
-            <p>rajesh</p>
+        <div id="relative">
+            <img src="https://images.pexels.com/photos/9454915/pexels-photo-9454915.jpeg?cs=srgb&dl=pexels-mo-eid-1268975-9454915.jpg&fm=jpg" width="700" height="600" >
         
+            <div id="absolute">
+            rajesh
+        </div>
+        <div id="absolute1">
+            rajesh
+        </div>
+        <div id="absolute2">
+            rajesh
+        </div>
+        <div id="absolute3">
+            rajesh
+        </div>
+        <div id="absolute4">
+            rajesh
+        </div>
         </div>
     </body>
 </html>
