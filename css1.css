@@ -12,7 +12,7 @@
       #c {
         background-color: black;
         height: 7%;
-        width: 1300px;
+        width: 1500px;
         color: white;
         position: fixed;
       }
@@ -74,11 +74,11 @@
         display: inline-block;
       }
       #AA {
-        width: 1300px;
+        width: 1500px;
         height: 350px;
       }
       #cc{
-          width: 1300px;
+          width: 1500px;
           height: 600px;
       }
       button{
